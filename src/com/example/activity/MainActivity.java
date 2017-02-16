@@ -31,6 +31,7 @@ public class MainActivity extends BaseActivity {
 	@Override
 	protected void initViews(Bundle savedInstanceState) {
 		setContentView(R.layout.activity_main);
+		//关爱生活，人人有责
 		Log.i(getTag(), "OnCreat");
 		mToolbar = (Toolbar) findViewById(R.id.toolbar_activity_main);
 		tvMain = (TextView) findViewById(R.id.tv_main);
